@@ -1,0 +1,17 @@
+/*
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+------->MEDIA QUERIES<--------
+
+/////////////////////////////
+*/
+
+
+
+@media (min-width: 720px) {
+    @include gallery-mq (3, 1fr);
+}
+
+@media screen and (min-width: 1024px) {
+    @include gallery-mq (4, 1fr);
+}
