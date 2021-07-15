@@ -12,9 +12,9 @@ function searchFunction() {
 for (i=0; i<=11; i++) {
     a = caption[i].getAttribute('data-caption');
     if (a.toLowerCase().indexOf(filter) > -1) {
-        document.getElementsByTagName('img')[i].style.display = "";
+        document.getElementsByTagName('a')[i].style.display = "";
     } else {
-        document.getElementsByTagName('img')[i].style.display = "none";
+        document.getElementsByTagName('a')[i].style.display = "none";
         }
     }
 }
